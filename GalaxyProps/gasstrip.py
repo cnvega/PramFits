@@ -50,9 +50,6 @@ modelnames = ['SPH', 'This work', 'T11 profile']
 formats = [':', '-', '--']
 colors = ['navy', 'turquoise', 'orangered']
 
-rd.Path_Clusters = "data/subfind" 
-rd.Path_SAG = "data/galaxies"
-
 figs = './figs_paper/'
 
 snap = 91

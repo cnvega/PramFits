@@ -53,9 +53,6 @@ masscut = 1e8
 
 Nsnaps = rd.redshifts.shape[0]
 
-rd.Path_Clusters = "data/subfind" 
-rd.Path_SAG = "data/galaxies"
-
 figs = './figs_paper/'
 
 s2z = {91:'0.0', 36:'1.5', 26:'3.0'}

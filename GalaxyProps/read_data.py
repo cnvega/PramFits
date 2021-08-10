@@ -13,9 +13,8 @@ import sys
 snapList, scales, redshifts = np.loadtxt("scales.txt", unpack=True)
 snapList = snapList.astype(np.int)
 
-Path_Clusters = "/data1/DolagClusters" 
-#Path_SAG = "/data1/DolagClusters/SalidaSAM/RPfit"
-Path_SAG = "/data1/DolagClusters/SalidaSAM/RPfit_paper"
+Path_Clusters = "data/subfind" 
+Path_SAG = "data/galaxies"
 
 def _read_catalogues(snap):
    
