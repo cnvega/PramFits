@@ -221,7 +221,7 @@ def plot_frps_comb(centrals):
       del sats
       del SAG_sim, SAG_fit, SAG_badfit, Groups, ParentGroup, Contam
    
-   axs[2].set_xlabel(r'$\log(f_{\rm RPS}(>z))$')
+   axs[2].set_xlabel(r'$\log(f_{\rm RPS})$')
    axs[2].legend(frameon=False, loc="upper right",
              numpoints=1, fontsize='small', handlelength=2.0, labelspacing=0.3)
    
